@@ -1,4 +1,4 @@
-# Benchmark of MXNet and Gluon
+# Benchmarks of MXNet and Gluon
 This is a performance comparison of native MXNet and Gluon
 
 ## Introduction
