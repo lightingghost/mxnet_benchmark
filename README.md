@@ -1,4 +1,4 @@
-# Benchmark of MXNet and Gluon
+# Benchmarks of MXNet and Gluon
 This is a performance comparison of native MXNet and Gluon
 
 ## Introduction
@@ -37,6 +37,7 @@ Titan Xp, i7-4790K, 32G
 
  
 It seems the network structure is too simple (sometime naive) to show the difference. I am going to test more complex structures.
+<<<<<<< HEAD
 
 ### GoogLeNet
 
@@ -53,3 +54,5 @@ Interestingly, the hybridized HybridBlock gives the best performance in both cas
 # Conclusion
 
  The performance lost due to the wrapping of gluon is minimal.
+=======
+ 
