@@ -30,10 +30,26 @@ Titan Xp, i7-4790K, 32G
 |Framework      | Time (ms)         | 
 | ------------- |:-------------:|
 | native mxnet      | 41.2 | 
+| gluon Block  | 36.9     | 
 | gluon SymbolBlock     | 40.8      |  
 | gluon HybridBlock  | 36.8     | 
 | gluon HybridBlock (hybridized)    | 36.8     |  
-| gluon Block  | 36.9     | 
+
  
 It seems the network structure is too simple (sometime naive) to show the difference. I am going to test more complex structures.
+
+### GoogLeNet
+
+|Framework      | Time (ms)         | 
+| ------------- |:-------------:|
+| native mxnet      | 236.6 | 
+| gluon SymbolBlock     | 255.1     |  
+| gluon HybridBlock  | 270.4    | 
+| gluon HybridBlock (hybridized)    | 222.7     |  
+| gluon Block  |  272.4 | 
  
+Interestingly, the hybridized HybridBlock gives the best performance in both cases.
+
+# Conclusion
+
+ The performance lost due to the wrapping of gluon is minimal.
