@@ -3,7 +3,7 @@ This is a performance comparison of native MXNet and Gluon
 
 ## Introduction
 
-[MXNet](https://mxnet.incubator.apache.org) is a deep learning framework supported by Amazon. I have had experience with MXNet in the year of 2014. At that time, the documentation of MXNet was far from satisfactory, and the amount of operators supported was not small. However, the performance of MXNet in terms of training speed and memory usage outperformed almost all others at that time. (I am talking about you, tensorflow 0.1 :-P)
+[MXNet](https://mxnet.incubator.apache.org) is a deep learning framework supported by Amazon. I have had experience with MXNet in the year of 2014. At that time, the documentation of MXNet was far from satisfactory, and the amount of operators supported was not small. However, the performance of MXNet in terms of training speed and memory usage outperformed almost all others at that time. 
 
 Recently, MXNet introduced [Gluon](http://gluon.mxnet.io/index.html), which offers high-level abstractions for predefined layers, loss functions, and optimizers. 
 
